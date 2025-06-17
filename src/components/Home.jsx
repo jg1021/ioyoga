@@ -89,7 +89,7 @@ const Home = () => {
           </div>
           <Trailer isOpen={showTrailer} onClose={() => setShowTrailer(false)} />
         </section>
-          <Link to="/pricing" className="px-8 py-4 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold rounded shadow">Start Free Trial</Link>
+          <Link to="/pricing" className="px-8 py-4 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold rounded shadow">Try for free</Link>
         </div>
       </section>
     </>

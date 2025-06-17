@@ -85,9 +85,10 @@ const App = () => {
     <Router>
       <div className="fflex flex-col min-h-screen font-sans text-gray-800 bg-white">
         <Header />
+        <Home />
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/about" element={<About />} />
             <Route path="/programs" element={<Programs />} />
