@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "/ioyoga/static/js/main.fe6267b0.js",
+    "main.css": "/ioyoga/static/css/main.936e782a.css",
+    "main.js": "/ioyoga/static/js/main.37bda6ad.js",
+    "static/media/main1.jpg": "/ioyoga/static/media/main1.00adb487dd46b7a60967.jpg",
     "index.html": "/ioyoga/index.html",
-    "main.fe6267b0.js.map": "/ioyoga/static/js/main.fe6267b0.js.map"
+    "main.936e782a.css.map": "/ioyoga/static/css/main.936e782a.css.map",
+    "main.37bda6ad.js.map": "/ioyoga/static/js/main.37bda6ad.js.map"
   },
   "entrypoints": [
-    "static/js/main.fe6267b0.js"
+    "static/css/main.936e782a.css",
+    "static/js/main.37bda6ad.js"
   ]
 }
