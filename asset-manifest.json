@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/ioyoga/static/js/main.fe6267b0.js",
+    "index.html": "/ioyoga/index.html",
+    "main.fe6267b0.js.map": "/ioyoga/static/js/main.fe6267b0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fe6267b0.js"
+  ]
+}
