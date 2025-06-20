@@ -79,13 +79,23 @@ import Teachers from './components/Teachers';
 import Pricing from './components/Pricing';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+import AppRouter from './components/Router';
 
 const App = () => {
   return (
     <Router>
       <div className="fflex flex-col min-h-screen font-sans text-gray-800 bg-white">
         <Header />
-        <Home />
+        <AppRouter />
+        <Footer />
+      </div>
+    </Router>
+  );
+};
+
+export default App;
+
+/*
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -96,10 +106,4 @@ const App = () => {
             <Route path="/pricing" element={<Pricing />} />
           </Routes>
         </main>
-        <Footer />
-      </div>
-    </Router>
-  );
-};
-
-export default App;
+        */
