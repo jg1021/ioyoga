@@ -55,7 +55,7 @@ const Trailer = ({ isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center p-4" onClick={handleBackdropClick}>
-      <div className="relative bg-black rounded-lg shadow-lg max-w-3xl w-full">
+      <div className="relative bg-black rounded-lg shadow-lg max-w-3xl w-full z-50">
         <button
           onClick={onClose}
           className="absolute top-3 right-3 text-white text-2xl hover:text-gray-300"
