@@ -70,7 +70,7 @@ const Home = () => {
 
   return (
     <>
-      <section className="text-center py-10 px-6 bg-[url('./assets/main1.jpg')] bg-cover bg-center text-white">
+      <section className="text-center py-10 px-6 bg-[url('./assets/main1.jpg')] bg-cover bg-center text-white z-10">
         <div className="p-2 rounded max-w-2xl mx-auto">
           <h1 className="text-5xl font-extrabold mb-6 leading-tight">Online Yoga for Body, Mind & Heart</h1>
           <p className="text-xl mb-1">Practice yoga with world-class teachers anywhere, anytime. Stream hundreds of yoga and meditation classes designed to strengthen your body and calm your mind.</p>
@@ -87,11 +87,14 @@ const Home = () => {
               Watch Trailer
             </button>
           </div>
-          <Trailer isOpen={showTrailer} onClose={() => setShowTrailer(false)} />
+          
         </section>
           <Link to="/pricing" className="px-8 py-4 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold rounded shadow">Try for free</Link>
         </div>
       </section>
+      <Trailer isOpen={showTrailer} onClose={() => {
+            console.log('Modal close clicked');
+            setShowTrailer(false)}} />
     </>
   );
 };
