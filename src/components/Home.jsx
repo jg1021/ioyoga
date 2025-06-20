@@ -75,7 +75,7 @@ const Home = () => {
           <h1 className="text-5xl font-extrabold mb-6 leading-tight">Online Yoga for Body, Mind & Heart</h1>
           <p className="text-xl mb-1">Practice yoga with world-class teachers anywhere, anytime. Stream hundreds of yoga and meditation classes designed to strengthen your body and calm your mind.</p>
           <section className="min-h-[40vh] bg-cover bg-center flex items-center justify-center text-center px-4"
-            style={{ backgroundImage: "url('/your-background.jpg')" }}
+            style={{ backgroundImage: "url('./assets/main1.jpg')" }}
           >
           <div className="bg-white bg-opacity-90 p-2 rounded-xl shadow-xl max-w-xl">
             <h1 className="text-3xl md:text-5xl font-bold mb-4 text-gray-800">Experience Transformative Yoga</h1>
